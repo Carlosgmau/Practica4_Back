@@ -1,4 +1,3 @@
-
 import { getDB } from "../db/mongo";
 import { ObjectId } from "mongodb";
 import bcrypt from "bcryptjs";
