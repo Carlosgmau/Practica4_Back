@@ -1,0 +1,13 @@
+Buenos días,
+
+He visto el comentario sobre los saltos de línea en mi código y quería aclarar que es una tenedencia que suelo hacer al programar.
+
+Esto suele ser porque al empezar una práctica de la asignatura utilizo de plantilla el código que hacemos ese mismo día en la clase reciente que hemos tenido donde Javier, el profesor, va escribiendo el código mientras nosotros lo copiamos.
+
+Si hay necesidad de explicar el código, estaré disponible.
+
+Disvulpame si esto ha llegado a un malentendido.
+
+Un saludo
+
+Carlos
