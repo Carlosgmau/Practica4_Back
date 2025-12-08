@@ -6,6 +6,8 @@ Esto suele ser porque al empezar una práctica de la asignatura utilizo de plant
 
 Si hay necesidad de explicar el código, estaré disponible.
 
+He quitado el espaciado entre líneas en esta práctica.
+
 Disvulpame si esto ha llegado a un malentendido.
 
 Un saludo
