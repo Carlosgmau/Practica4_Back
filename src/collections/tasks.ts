@@ -18,7 +18,6 @@ export type TaskDoc = {
 const COLLECTION = "tasks";
 
 
-
 export const createTask = async (payload: {
   title: string;
   projectId: string;
