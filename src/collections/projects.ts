@@ -14,7 +14,6 @@ export type ProjectDoc = {
 };
 
 
-
 const COLLECTION = "projects";
 
 
