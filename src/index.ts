@@ -9,56 +9,25 @@ import { getUserFromToken } from "./auth";
 
 const PORT = process.env.PORT ? parseInt(process.env.PORT) : 3000;
 
-
 async function start() {
-
-
+  
   await connectToMongoDB();
-
-
   const server = new ApolloServer({
-
-
     typeDefs,
-
-
     resolvers,
-
-
     context: async ({ req }) => {
-
-
       const auth = req.headers.authorization || req.headers.Authorization || "";
-
-
       const user = await getUserFromToken(auth as string);
-
-
       return { user };
-
-
     },
-
-
   });
 
-
   const { url } = await server.listen({ port: PORT });
-
-
   console.log(`Server ready at ${url}`);
-
-
 }
 
 
 start().catch(err => {
-
-
   console.error(err);
-
-
   process.exit(1);
-
-
 });
